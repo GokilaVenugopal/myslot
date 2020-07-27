@@ -1,7 +1,7 @@
 from datetime import datetime
 from flask import Flask, render_template, url_for, flash, redirect
 from flask_sqlalchemy import SQLAlchemy
-from forms import RegistrationForm, LoginForm
+
 from flask_login import current_user
 
 app = Flask(__name__,template_folder='../Templates', static_folder='../statics')
